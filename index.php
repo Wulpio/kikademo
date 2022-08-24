@@ -1,3 +1,7 @@
+<?php
+require_once "functions.php";
+setLang();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +51,9 @@ https://templatemo.com/tm-545-finance-business
         <div class="row">
           <div class="col-md-8 col-xs-12">
             <ul class="left-info">
-              <li><a href="#"><i class="fa fa-phone"></i>+420 773 717 048</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>+420 773 717 048</a>
+                  <a class="lang" href="?lang=sk"> <img src="assets/images/flags/sk.gif" alt="Slovensky" title="Slovensky"> </a>
+                  <a class="lang" href="?lang=en"> <img src="assets/images/flags/en.gif" alt="English (UK)" title="English (UK)"></a>
             </ul>
           </div>
         </div>
@@ -65,21 +71,18 @@ https://templatemo.com/tm-545-finance-business
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link current" href="#top">Hlavní Stránka
+                <a class="nav-link current" href="#top"><?= translate('mainPage')?>
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link external" href="file:///Users/kristinakralova/Desktop/kikademo-main/services.html">Služby</a>
+                <a class="nav-link external" href="services.html"><?= translate('services')?></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link external" href="file:///Users/kristinakralova/Desktop/kikademo-main/about.html">O Nás</a>
+                <a class="nav-link external" href="about.html"><?= translate('aboutAs')?></a>
               </li>              
               <li class="nav-item">
-                <a class="nav-link external" href="file:///Users/kristinakralova/Desktop/kikademo-main/contact.html#">Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link external" href="index.html">Eng</a>
+                <a class="nav-link external" href="contact.html#"><?= translate('contact')?></a>
               </li>
             </ul>
           </div>

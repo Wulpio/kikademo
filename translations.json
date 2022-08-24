@@ -1,0 +1,18 @@
+{
+  "mainPage": {
+    "sk": "Hlavní Stránka",
+    "en": "Main Page"
+  },
+  "services": {
+    "sk": "Služby",
+    "en": "Services"
+  },
+  "aboutAs": {
+    "sk": "O Nás",
+    "en": "About as"
+  },
+  "contact": {
+    "sk": "Kontakt",
+    "en": "Contact"
+  }
+}
