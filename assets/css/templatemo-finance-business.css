@@ -402,11 +402,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/slide_03.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/slide_02.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -1064,7 +1064,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/page-heading-bg.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1099,7 +1099,8 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item img {
-	width: 100%;
+	width: 100px;
+    height: auto;
 	overflow: hidden;
 }
 
@@ -1109,6 +1110,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content h4 {
+    color: #bc1717;
 	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 0.25px;
